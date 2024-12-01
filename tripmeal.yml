@@ -82,7 +82,7 @@ spec:
       containers:
       - image: europe-west2-docker.pkg.dev/gq-cloud-computing/good/girls-db-pets:1.0
         name: db
-        imagePullPolicy: Never
+        imagePullPolicy: Always
         ports:
         - containerPort: 3306
         volumeMounts:
