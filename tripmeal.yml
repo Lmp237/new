@@ -29,7 +29,7 @@ spec:
         service: web
     spec:
       containers:
-      - image: europe-west2-docker.pkg.dev/${PROJECT_ID}/${REPO_NAME}/${APP_NAME}/web-pets:${APP_VERSION}
+      - image: europe-west2-docker.pkg.dev/${gq-cloud-computing}/${good}/${girls}/web-pets:${APP_VERSION}
         name: web
         ports:
         - containerPort: 5000
@@ -80,7 +80,7 @@ spec:
         service: db
     spec:
       containers:
-      - image: europe-west2-docker.pkg.dev/${PROJECT_ID}/${REPO_NAME}/${APP_NAME}/db-pets:${APP_VERSION}
+      - image: europe-west2-docker.pkg.dev/${gq-cloud-computing}/${good}/${girls}/db-pets:${APP_VERSION}
         name: db
         ports:
         - containerPort: 3306
